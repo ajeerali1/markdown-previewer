@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.editor-preview-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.editor,
+.preview {
+  width: 100%;
+  max-width: 48%;
+  min-height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+textarea.editor {
+  resize: vertical;
+}
